@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after{
+    content: "";
+    display:block;
+    clear: both;
+}
+.gWidth{
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+}
+.box{
+    width: 1920px;
+    height: 1452px;
+    
+}
+.top{
+    width: 1920px;
+    height: 100px;
+    background-color:black;
+}
+.top img{
+    font-size:30px;
+    margin-left: 360px;
+    padding-top: 35px;
+}
+.top li{
+    font-size:17px;			
+    line-height: 100px;
+    margin-left:40px;			
+    float: left;			
+}
+.top ul{
+    width: 1200px;
+}
+.top a{
+    color:white;
+}		
+.top a:hover{
+    color:red;
+}
+.content{
+    width: 1200px;
+    height: 880px;
+    color:white;
+}
+.content p{
+    font-size:17px;
+    color:#666666;
+    margin-top: 19px;
+    margin-left: 360px;
+}
+.content span{
+    font-size:17px;
+    color:#333333;			
+}
+.content h1{
+    margin-left: 360px;
+    margin-top: 65px;
+    margin-bottom: 68px;
+    color:#333333;
+}
+.content ul{
+    width:952px;
+}
+.content  li{
+    font-size:17px;
+    margin-left:114px;
+    color:#333333;
+    float: left;
+}
+.content a{
+    color:#333333;
+}			
+.content2{
+    width: 1200px;
+    height: 342px;
+    margin-top: 64px;
+    margin-left: 360px;
+    float: left;
+}		
+.content2 div{
+    width:1200px;
+    height: 342px;
+    float: left;
+}		
+.content2 p{
+    font-size:17px;
+    width: 945px;
+    margin-top: 40px;
+    margin-left:280px;
+    
+    color:#333333;
+    
+                            
+}	
+.content2 img{
+    width: 255px;
+    float: left;
+    margin-top: 40px;	
+                
+}
+.foot{
+    width: 1920px;
+    height: 80px;
+    background-color:#EEEEEE;
+}
+.foot img{
+    margin-left: 617px;
+    margin-top: 13px;
+}
+.footer{
+    width: 1920px;
+    height:500px;
+    background-color:black;
+    color: white;
+    padding-top: 50px;
+    position: relative;
+}
+
+.footer a{
+        color: white;
+    }
+.footer .li .h{
+        padding-top: 50px;
+    }
+.footer ul{
+        width: 1350px;
+    }
+.footer li{
+        float: left;
+        margin-right: 200px;
+    }
+.footer h6{
+        position: absolute;
+        bottom:50px;
+        color:#292929;
+        text-align:center;
+}	
+

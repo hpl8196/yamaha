@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* 头部 */
+.head{
+    height: 100px;
+    background-color: #000000;
+}
+.head .top .logo{
+    width: 138px;
+    height: 30px;
+    margin-top: 35px;
+    margin-right: 278px;
+}
+.head .top .nav ul li{
+    width: 110px;
+    float: left;
+    font-size: 16px;
+    line-height: 100px;
+    color:#FFFFFF;
+}
+.head .top .nav ul li:nth-child(1) , .head .top .nav ul li:nth-child(2){
+    width: 85px;
+}
+.head .top .nav ul li a span{
+    margin-left: 3px;
+    display: none;
+}
+.head .top .nav ul li a{
+    color:#FFFFFF;
+}
+.head .top .nav ul .active a{
+    color:#FF6666;
+}
+.head .top .nav ul .active a span{
+    display: block;
+}
+.head .top .nav ul li a:hover{
+    color:#FF6666;
+}
+.head .top .nav ul li a:hover span{
+    display: block;
+}
+.head .sou{
+    position: relative;
+    width: 200px;
+    height: 38px;
+}
+.head .sou input{
+    width: 190px;
+    height: 38px;
+    background: #7F7C85;
+    float: right;
+    color: #fff;
+    margin-top: 35px;
+    border-radius: 4px;
+    border: none;
+    padding-left: 10px;
+}
+.head .sou span{
+    color:white;
+    position: absolute;
+    right:7px;top:48px;
+}
+
+
+/* banner */
+.banner img{
+    height: 260px;
+    width: 100%;
+}
+
+/* 内容 */
+.content ul{
+    margin-top: 19px;
+    font-size: 18px;
+}
+.content ul li{
+    line-height: 30px;
+    float: left;
+    margin-right:21px ;
+}
+.content ul li a{
+    color: #666666;
+}
+.content .li{
+    color: #CCCCCC;
+}
+.content .li1{
+    color: #000000;
+}
+.content h4{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 32px;
+}
+.content p{
+    text-align: center;
+    margin-top: 11px;
+}
+.content ol{
+    margin:0 20px;
+    margin-top: 63px;
+    margin-bottom: 67px;
+}
+.content ol li{
+    line-height: 35px;
+    margin-bottom: 23px;
+    font-size: 18px;
+}
+.content .p{
+    font-weight: normal;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 60px;
+}
+
+.content_xia{
+    margin-top: 55px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.content_xia ul li{
+    font-size: 24px;
+}
+.content_xia ol{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.map #dituContent{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 41px;
+    margin-bottom: 100px;
+}
+.iw_poi_title {
+    color:#CC5522;
+    font-size:14px;
+    font-weight:bold;
+    overflow:hidden;
+    padding-right:13px;
+    white-space:nowrap
+}
+.iw_poi_content {
+    font:12px arial,sans-serif;
+    overflow:visible;
+    padding-top:4px;
+    white-space:-moz-pre-wrap;
+    word-wrap:break-word
+}
+
+/* 底部 */
+.footer{
+    height: 500px;
+    background-color: #000000;
+    padding-top: 63px;
+    box-sizing: border-box;
+}
+.footer .ul1{
+    margin-left: 23px;
+}
+.footer .ul1>li{
+    float: left;
+    width: 180px;
+    margin-right: 114px;
+}
+.footer .ul1>li h5{
+    font-size: 18px;
+    color:#FFFFFF;
+    line-height: 34px;
+}
+.footer .ul1>li .ul2 li{
+    font-size: 12px;
+    line-height: 30px;
+    color:#FFFFFF;
+}
+.footer .ul1>li .ul2 li a{
+    color:#FFFFFF;
+}
+.footer .ul3{
+    margin-top: -110px;
+}
+.footer .ul3 h5{
+    font-size: 18px;
+    color:#FFFFFF;
+    line-height: 34px;
+}
+.footer .ul3 a{
+    font-size: 12px;
+    line-height: 30px;
+    color:#FFFFFF;
+}
+.footer .p1{
+    font-size: 16px;
+    color:#999999;
+    margin-left: 23px;
+    margin-top: 105px;
+}
